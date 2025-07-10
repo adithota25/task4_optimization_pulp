@@ -1,0 +1,23 @@
+Task 4 – PuLP Optimization Output
+
+📌 Problem Summary:
+- Maximize Profit = 20A + 30B
+- Constraints:
+  - Material: 2A + 4B ≤ 100
+  - Labor:    3A + 2B ≤ 90
+
+✅ Optimal Solution (from PuLP Solver):
+- Status: Optimal
+- Product A to produce: 15 units
+- Product B to produce: 17 units
+- Maximum Profit: ₹810
+
+🧠 Interpretation:
+- Produce 15 units of Product A
+- Produce 17 units of Product B
+- This yields a total profit of ₹810
+- Resources used:
+  - Material used: 98 units (within 100)
+  - Labor used: 79 units (within 90)
+
+✔️ Both constraints satisfied — solution is optimal.
